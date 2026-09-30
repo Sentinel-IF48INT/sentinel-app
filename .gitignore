@@ -1,7 +1,16 @@
+# Ignore virtual environment
+venv/
+env/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
 *.py[codz]
 *$py.class
+
+# Ignore local database files and environment variables
+*.sqlite3
+.env
 
 # C extensions
 *.so
